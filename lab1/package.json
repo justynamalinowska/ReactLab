@@ -15,7 +15,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "dev": "node /Users/justynamalinowska/Documents/ReactLab/lab1/src/module-data-generator.cjs 10 && react-scripts start",
+    "dev": "node /Users/justynamalinowska/Documents/ReactLab/lab1/src/data/module-data-generator.cjs 10 && react-scripts start",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
