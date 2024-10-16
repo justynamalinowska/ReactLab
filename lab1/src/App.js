@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { data } from "/Users/justynamalinowska/Documents/ReactLab/lab1/src/module-data"; // Importuj wygenerowaną tablicę
+import PersonProfile from "/Users/justynamalinowska/Documents/ReactLab/lab1/src/PersonProfile.js"; // Importuj komponent
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>People List</h1>
+      {data.map((person) => (
+        <PersonProfile
+          key={person.id}
+          id={person.id}
+          name={person.name}
+          birth={person.birth}
+          eyes={person.eyes}
+        />
+      ))}
     </div>
   );
 }
