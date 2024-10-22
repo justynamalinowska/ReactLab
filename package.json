@@ -1,5 +1,9 @@
 {
   "devDependencies": {
+    "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-jest": "^28.8.3"
+  },
+  "dependencies": {
+    "object.groupby": "^1.0.3"
   }
 }
