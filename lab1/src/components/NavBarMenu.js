@@ -1,15 +1,16 @@
 import React from "react";
+import { Nav } from "react-bootstrap";
 
-function NavBarMenu({ items }) {
+const NavBarMenu = ({ items }) => {
   return (
-    <nav>
-      <ul>
-        {items.map((item) => (
-          <li key={item.id}>{item.label}</li>
-        ))}
-      </ul>
-    </nav>
+    <Nav>
+      {items.map((item) => (
+        <Nav.Link href={item.url} key={item.id}>
+          {item.label}
+        </Nav.Link>
+      ))}
+    </Nav>
   );
-}
+};
 
 export default NavBarMenu;
