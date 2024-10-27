@@ -1,6 +1,6 @@
 import React from "react";
-import { data } from "/Users/justynamalinowska/Documents/ReactLab/lab1/src/module-data"; // Importuj wygenerowaną tablicę
-import PersonProfile from "/Users/justynamalinowska/Documents/ReactLab/lab1/src/PersonProfile.js"; // Importuj komponent
+import { data } from "./module-data"; // Importuj wygenerowaną tablicę
+import PersonProfile from "./PersonProfile.js"; // Importuj komponent
 
 function App() {
   return (
