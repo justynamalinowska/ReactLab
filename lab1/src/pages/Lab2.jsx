@@ -17,7 +17,6 @@ const Lab2 = () => {
 
   return (
     <div>
-      <h1>Profile of {person.name}</h1>
       <PersonProfile
         id={person.id}
         name={person.name}

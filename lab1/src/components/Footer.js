@@ -4,10 +4,8 @@ function Footer() {
   return (
     <footer>
       <div>
-        <img src="/WSEILogo.png" alt="University Logo" />
-      </div>
-      <div>
-        <p>© 2024 WSEI Autor: justyna.malinowska@microsoft.wsei.edu.pl</p>
+        <p>© 2024 WSEI Author: justyna.malinowska@microsoft.wsei.edu.pl</p>
+        <img className="logo" src="/WSEILogo.png" alt="University Logo" />
       </div>
     </footer>
   );

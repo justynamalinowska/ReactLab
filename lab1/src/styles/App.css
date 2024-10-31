@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vh;
   pointer-events: none;
 }
 
@@ -51,13 +51,4 @@ body {
 
 .content {
   flex: 1;
-}
-
-footer {
-  margin-top: auto;
-  background-color: #282c34;
-  color: white;
-  padding: 1rem;
-  text-align: center;
-  width: 100%;
 }
