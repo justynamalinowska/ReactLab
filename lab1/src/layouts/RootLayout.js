@@ -1,18 +1,12 @@
 import React from "react";
-import NavBarMenu from "../components/NavBarMenu.js";
-import Footer from "../components/Footer.js";
+import NavBar from "/Users/justynamalinowska/Documents/ReactLab/lab1/src/components/NavBarMenu.js";
+import Footer from "/Users/justynamalinowska/Documents/ReactLab/lab1/src/components/Footer.js";
 
-const menuItems = [
-  { id: 1, label: "Home" },
-  { id: 2, label: "Laboratorium 1" },
-  { id: 3, label: "Laboratorium 2" },
-];
-
-function RootLayout({ children }) {
+function RootLayout({ items, children }) {
   return (
-    <div>
-      <NavBarMenu items={menuItems} />
-      <div>{children}</div>
+    <div className="root-layout">
+      <NavBar items={items} />
+      <div className="content">{children}</div>
       <Footer />
     </div>
   );

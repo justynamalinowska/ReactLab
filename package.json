@@ -4,6 +4,7 @@
     "eslint-plugin-jest": "^28.8.3"
   },
   "dependencies": {
-    "object.groupby": "^1.0.3"
+    "object.groupby": "^1.0.3",
+    "react-router-dom": "^6.27.0"
   }
 }
