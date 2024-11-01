@@ -1,6 +1,6 @@
 import React from "react";
-import NavBar from "/Users/justynamalinowska/Documents/ReactLab/lab1/src/components/NavBarMenu.js";
-import Footer from "/Users/justynamalinowska/Documents/ReactLab/lab1/src/components/Footer.js";
+import NavBar from "../components/NavBarMenu";
+import Footer from "../components/Footer";
 
 function RootLayout({ items, children }) {
   return (

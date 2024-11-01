@@ -1,10 +1,11 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import RootLayout from "./layouts/RootLayout";
-import Home from "./pages/Home";
-import Lab1 from "./pages/Lab1";
-import Lab2 from "./pages/Lab2";
-import NotFound from "./pages/NotFound";
+import RootLayout from "./layouts/RootLayout.js";
+import Home from "./pages/Home.jsx";
+import Lab1 from "./pages/Lab1.jsx";
+import Lab2 from "./pages/Lab2.jsx";
+import Lab3 from "./pages/Lab3.jsx";
+import NotFound from "./pages/NotFound.jsx";
 
 const menuItems = [
   { id: 1, label: "Home", url: "/", urlPattern: "/", element: <Home /> },
@@ -21,6 +22,13 @@ const menuItems = [
     url: "/lab2/1",
     urlPattern: "/lab2/:id",
     element: <Lab2 />,
+  },
+  {
+    id: 4,
+    label: "Laboratorium 3",
+    url: "/lab3/1",
+    urlPattern: "/lab3/:id",
+    element: <Lab3 />,
   },
 ];
 
