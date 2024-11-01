@@ -17,11 +17,11 @@ body {
 footer {
   display: flex;
   justify-content: center;
-  background-color: #858585;
+  background-color: #bb94b7;
   color: white;
   padding: 1rem;
   width: 100%;
-  margin-top: auto;
+  margin-top: 25px;
 }
 
 .logo {
@@ -35,4 +35,30 @@ footer {
 footer div {
   display: flex;
   justify-content: center;
+}
+
+.card-body button {
+  background-color: #bb94b7;
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10%;
+}
+
+.card-body button:hover {
+  background-color: #a37f9a;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card {
+  margin: 15px;
 }
